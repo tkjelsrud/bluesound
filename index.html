@@ -1,0 +1,19 @@
+<html>
+<head>
+<script type="text/javascript">
+  var host = "192.x.x.x";
+  var port = "11000";
+  
+  function doFunction(func) {
+    var x = new XMLHttpRequest();
+    x.open("GET", "http://" + host + ":" + port + "/" + func);
+    //x.send(bad);
+  }
+</script>
+</head>
+
+<body>
+<a href="http://IP:11000/Play">Play test</a>
+<a href="http://IP:11000/Stop">Stop test</a>
+</body>
+</html>
