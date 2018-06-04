@@ -1,5 +1,16 @@
 <html>
 <head>
+<style>
+  #menu {
+    float: left;
+    width: 100%;
+  }
+  #menu div {
+    margin: 2px;
+    width: 45%;
+    height: 200px;
+  }
+</style>
 <script type="text/javascript">
   var host = "192.x.x.x";
   var port = "11000";
@@ -13,7 +24,12 @@
 </head>
 
 <body>
-<a href="http://IP:11000/Play">Play test</a>
-<a href="http://IP:11000/Stop">Stop test</a>
+  <div>
+    <a href="http://IP:11000/Play">Play test</a>
+    <a href="http://IP:11000/Stop">Stop test</a>
+  </div>
+  <div id="menu">
+    
+  </div>
 </body>
 </html>
